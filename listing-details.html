@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Link of CSS files -->
+  <link rel="stylesheet" href="assets/css/bootstrap.rtl.min.css" />
+  <link rel="stylesheet" href="assets/css/flaticon.css" />
+  <link rel="stylesheet" href="assets/css/remixicon.css" />
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="assets/css/fancybox.css" />
+  <link rel="stylesheet" href="assets/css/jquery-ui-min.css" />
+  <link rel="stylesheet" href="assets/css/odometer.min.css" />
+  <link rel="stylesheet" href="assets/css/aos.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <link rel="stylesheet" href="assets/css/dark-theme.css" />
+  <link rel="stylesheet" href="assets/css/rtl.css" />
+  <link rel="stylesheet" href="assets/css/index-rtl.css" />
+  
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/fontawesome.min.css"
+    integrity="sha512-R+xPS2VPCAFvLRy+I4PgbwkWjw1z5B5gNDYgJN5LfzV4gGNeRQyVrY7Uk59rX+c8tzz63j8DeZPLqmXvBxj8pA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/v5-font-face.min.css"
+    integrity="sha512-q7oLGfg6SLsObFCqz+01EtC3xCKoXujNKLx+aWol8xl6YLF7X9/HXhmlxabjo8uicrLlGhiY3b46ejzQVsGOoA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>فيلا للايجار</title>
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+  <style>
+    .owl-theme {
+      background-color: #403003;
+    }
+
+    .video-item {
+      width: 150px;
+    }
+
+    .page-wrapper {
+      overflow: hidden;
+    }
+
+    .sidebar .sidebar-widget {
+      margin: 0 0 30px;
+      position: relative;
+      z-index: 1;
+      padding: 25px;
+      -webkit-box-shadow: 0 0 25px rgb(0 0 0 / 9%);
+      box-shadow: 0 0 25px rgb(0 0 0 / 9%);
+    }
+
+    @media (max-width: 770px) {
+    
+    
+      .property-details .property-desc {
+        text-align: center;
+      }
+    }
+
+    @media (max-width: 570px) {
+      .property-desc h4 {
+        text-align: center;
+      }
+
+      .property-features_detail {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page-wrapper">
+    <!-- Header Section Start -->
+    <header class="header-wrap header__items" style="background-color: #fff;">
+      <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <a class="navbar-brand" href="index.html">
+            <img class="logo-light" src="assets/img/logo tmtc(3).png" alt="logo" />
+          </a>
+          <div class="collapse navbar-collapse main-menu-wrap" id="navbarSupportedContent">
+            <div class="menu-close d-lg-none">
+              <a href="javascript:void(0)"><i class="ri-close-line"></i></a>
+            </div>
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="listings-one.html" class="nav-link">
+                  بحث
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="service.html" class="nav-link">
+                  خدامتنا
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link">
+                  من نحن
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link">
+                  تواصل معنا
+                </a>
+              </li>
+              <li class="nav-item d-lg-none">
+                <button type="button" class="btn style1" data-bs-toggle="modal" data-bs-target="#signUp">
+                  Sign Up
+                </button>
+              </li>
+            </ul>
+            <div class="others-options md-none">
+              <div class="header-btn">
+                <button type="button" class="btn style3" data-bs-toggle="modal" data-bs-target="#signIn">
+                  نسجيل الدخول
+                </button>
+                <button type="button" class="btn style1" data-bs-toggle="modal" data-bs-target="#signUp">
+                  أضف عقار
+                  <i class="fas fa-map-marker-alt"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="mobile-bar-wrap">
+          <div class="mobile-menu d-lg-none">
+            <a href="javascript:void(0)"><i class="ri-menu-line"></i></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Content Wrapper Start -->
+    <div class="content-wrapper">
+      <!-- Breadcrumb Start -->
+
+      <div class="container">
+        <div class="breadcrumb-wrap bg-f br-1">
+
+          <div class="breadcrumb-title">
+            <ul class="breadcrumb-menu list-style">
+              <li><a href="index.html">الرئيسيه</a></li>
+              <li><a href="listings-one.html">عقارات للايجار</a></li>
+              <li>تفاصيل العقار</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      <!-- Breadcrumb End -->
+
+      <!-- Property Details section start -->
+      <section class="property-details-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-9 col-md-7 col-sm-12">
+              <div class="property-details">
+                <div class="video-wrap style3 ptb-50">
+                  <div class="container">
+                    <div class="row">
+                    </div>
+                    <div class="outer">
+                      <div id="big" class="owl-carousel owl-theme">
+                        <div class="video-bg video-bg-1 bg-f">
+                            <span class="ripple"></span></span>
+                          </a>
+                        </div>
+                        <div class="video-bg video-bg-2 bg-f">
+                            <span class="ripple"></span></span>
+                          </a>
+                        </div>
+                        <div class="video-bg video-bg-3 bg-f">
+                            <span class="ripple"></span></span>
+                          </a>
+                        </div>
+                          <div class="video-bg video-bg-4 bg-f">
+                            <span class="ripple"></span></span>
+                          </a>
+                        </div>
+                        <div class="video-bg video-bg-5 bg-f">
+                            <span class="ripple"></span></span>
+                          </a>
+                        </div>
+                        <div class="video-bg video-bg-6 bg-f">
+                            <span class="ripple"></span></span>
+                          </a>
+                        </div>
+                      </div>
+                      <div id="thumbs" class="owl-carousel owl-theme">
+                        <div class="video-item">
+                          <img src="assets/img/property/property-14.jpg" alt="Image">
+                        </div>
+                        <div class="video-item">
+                          <img src="assets/img/property/property-15.jpg" alt="Image">
+                        </div>
+                        <div class="video-item">
+                          <img src="assets/img/property/property-16.jpg" alt="Image">
+                        </div>
+                        <div class="video-item">
+                          <img src="assets/img/property/property-17.jpg" alt="Image">
+                        </div>
+                        <div class="video-item">
+                          <img src="assets/img/property/property-15.jpg" alt="Image">
+                        </div>
+                        <div class="video-item">
+                          <img src="assets/img/property/property-16.jpg" alt="Image">
+                        </div>
+                        <div class="video-item">
+                          <img src="assets/img/property/property-14.jpg" alt="Image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="property-desc">
+                  <h4>مواصفات العقار</h4>
+                </div>
+                <div class="property-desc">
+                  <div class="row">
+                    <div class="col-md-3 col-sm-4 col-4">
+                      <ul class="property-features list-style">
+                        <li>
+                          <ion-icon name="bed-outline" class="property-icons"></ion-icon>
+                          <span class="property_num">4</span>
+                          <br />
+                          <span class="property-features_item">غرف نوم</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-4">
+                      <ul class="property-features list-style">
+                        <li>
+                          <i class="fa-solid fa-bath property-icons"></i>
+                          <span class="property_num">6</span>
+                          <br />
+                          <span class="property-features_item">
+                            دورات مياه
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-4 ">
+                      <ul class="property-features list-style">
+                        <li>
+                          <ion-icon name="desktop-outline" class="property-icons"></ion-icon>
+                          <span class="property_num">2</span>
+                          <br />
+                          <span class="property-features_item">صاله</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-4">
+                      <ul class="property-features list-style">
+                        <li>
+                          <ion-icon name="home-outline" class="property-icons"></ion-icon>
+                          <span class="property_num">2</span>
+                          <br />
+                          <span class="property-features_item">مجلس</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-4">
+                      <ul class="property-features list-style">
+                        <li>
+                          <ion-icon name="crop-outline" class="property-icons"></ion-icon>
+                          <span class="property_num">363</span>
+                          <span>متر مربع</span>
+                          <br />
+                          <span class="property-features_item">
+                            مساحه الارض
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <hr />
+                </div>
+                <div class="property-desc">
+
+                  <div class="row property-features_detail">
+                    <div class="col-md-3 col-sm-6 col-6">
+                      <ul class="property-features list-style">
+                        <li class="property__detail__item">نوع العقار</li>
+                        <li class="property__detail__item">دور</li>
+                        <li class="property__detail__item">اثاث المنزل</li>
+                      </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-6">
+                      <ul class="property-features list-style">
+                        <li>سكنى</li>
+                        <li>2</li>
+                        <li>مفروشه</li>
+                      </ul>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-6">
+                      <ul class="property-features list-style">
+                        <li class="property__detail__item">الواجهة</li>
+                        <li class="property__detail__item">عمر العقار</li>
+                      </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-6">
+                      <ul class="property-features list-style">
+                        <li>جنوبيه</li>
+                        <li>7 سنوات</li>
+                      </ul>
+                    </div>
+
+                    <div class="property__position">
+                      <span>الحي</span>
+                      <h2>الياقوت</h2>
+                      <div class="row">
+
+                        <div class="comp-map">
+                          <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8385385572983!2d144.95358331584498!3d-37.81725074201705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4dd5a05d97%3A0x3e64f855a564844d!2s121%20King%20St%2C%20Melbourne%20VIC%203000%2C%20Australia!5e0!3m2!1sen!2sbd!4v1612419490850!5m2!1sen!2sbd"></iframe>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="property-features">
+                      <h4>معلومات اضافية</h4>
+                      <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                          <ul class="property-annuties list-style">
+                            <li>
+                              <i class="ri-checkbox-multiple-line"></i>
+                              حوش
+                            </li>
+                            <li>
+                              <i class="ri-checkbox-multiple-line"></i>
+                              مسبح خارجى
+                            </li>
+                            <li>
+                              <i class="ri-checkbox-multiple-line"></i>
+                              غرفة عاملة منزلية
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                          <ul class="property-annuties list-style">
+                            <li>
+                              <i class="ri-checkbox-multiple-line"></i>
+                              حديقة
+                            </li>
+                            <li>
+                              <i class="ri-checkbox-multiple-line"></i>
+                              غرفة سائق
+                            </li>
+                            <li>
+                              <i class="ri-checkbox-multiple-line"></i>
+                              ملحق
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="property-desc">
+                          <h4>فيديو للعقار</h4>
+                          <div class="property-video">
+                            <img src="assets/img/property/single-property-2.jpg" alt="Image">
+                            <a class="play-video" data-fancybox="" href="https://www.youtube.com/watch?v=Qj59_LGUBvE">
+                              <span class="play-now icon"><i class="flaticon-play-1"></i>
+                                <span class="ripple"></span></span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-md-5 col-sm-12 property__sidebar__items">
+              <div class="sidebar property__sidebar">
+                <div class="property__button__item">
+                  <button class="btn style3">
+                    حفظ العقار
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="btn style3">
+                    مشاركة
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </button>
+                </div>
+                <div class="row align-items-start property__items">
+                  <div class="col-md-12">
+                    <p class="property-price">34,000 ر.س</p>
+                  </div>
+                </div>
+                <div class="sidebar-widget">
+                  <h4>لطلب العقار و جدولة معاينة</h4>
+                  <form action="#" class="filter-widget">
+                    <div class="form-group">
+                      <input type="text" placeholder="الأسم" />
+                    </div>
+
+                    <div class="form-group">
+                      <input type="email" placeholder="البريد الألكترونى" />
+                    </div>
+                    <div class="form-group">
+                      <input type="number" placeholder="الهاتف" />
+                    </div>
+
+                    <div class="form-group">
+                      <button class="btn style2">أرسال</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+    </div>
+  </div>
+  </section>
+
+  <!--  Property Details section end -->
+  </div>
+  <!-- Content wrapper end -->
+
+  <!-- Footer Section Start -->
+  <footer class="footer-wrap style2 pt-100 footer">
+    <img src="assets/img/footer-map.png" alt="IMage" class="footer-shape-one">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row pb-75">
+          <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 pe-xl-5">
+            <div class="footer-widget">
+              <a href="index.html" class="footer-logo">
+                <!-- <img src="assets/img/aa.png" alt="Image"> -->
+                شركه التحويل المستديم العقاريه
+              </a>
+              <p class="comp-desc">
+                شركه رائده في تسويق وتطوير العقارات التجاريه والسكنيه في المملكة العربيه السعوديه
+
+                التحويل المستديم العقاريه ستساعدك في بيع , تأجير وإدارة عقارك
+
+              </p>
+              <h6>اللغه</h6>
+              <div class="select-lang">
+                <div class="navbar-option-item navbar-language dropdown language-option">
+                  <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <span class="lang-name"></span>
+                  </button>
+                  <div class="dropdown-menu language-dropdown-menu">
+                    <a class="dropdown-item" href="#">
+                      <img src="assets/img/uk.png" alt="flag">
+                      English
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      <img src="assets/img/uae.png" alt="flag">
+                      العربيّة
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+            <div class="footer-widget">
+              <h3 class="footer-widget-title">نوع</h3>
+              <ul class="footer-menu list-style">
+                <li>
+                  <a href="listings-one.html" target="_blank">
+                    <i class="ri-arrow-left-s-line"></i>
+                    عقار السعودية | عقارات للبيع في السعودية
+                  </a>
+                </li>
+                <li>
+                  <a href="listings-one.html" target="_blank">
+                    <i class="ri-arrow-left-s-line"></i>
+                    عقار الرياض | عقارات للبيع في الرياض
+                  </a>
+                </li>
+                <li>
+                  <a href="listings-one.html" target="_blank">
+                    <i class="ri-arrow-left-s-line"></i>
+                    عقار جدة | عقارات للبيع في جدة
+                  </a>
+                </li>
+                <li>
+                  <a href="listings-one.html" target="_blank">
+                    <i class="ri-arrow-left-s-line"></i>
+                    عقار مكة | عقارات للبيع في مكة
+                  </a>
+                </li>
+                <li>
+                  <a href="listings-one.html" target="_blank">
+                    <i class="ri-arrow-left-s-line"></i>
+                    عقار المدينة | عقارات للبيع في المدينة المنورة
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 ps-xl-5">
+            <div class="footer-widget">
+              <h3 class="footer-widget-title">المناطق</h3>
+              <ul class="footer-menu list-style">
+                <li>
+                  <a href="about.html" target="_blank">
+                    <i class="ri-arrow-left-s-line"></i>
+                    عقارات للبيع في شمال الرياض
+                  </a>
+                </li>
+                <li>
+                  <a href="agents.html" target="_blank">
+                    <i class="ri-arrow-left-s-line"></i>
+                    عقارات للبيع في شرق الرياض
+                  </a>
+                </li>
+                <li>
+                  <a href="blog.html" target="_blank">
+                    <i class="ri-arrow-left-s-line"></i>
+                    عقارات للبيع في وسط الرياض
+                  </a>
+                </li>
+                <li>
+                  <a href="contact.html" target="_blank">
+                    <i class="ri-arrow-left-s-line"></i>
+                    عقارات للبيع في جنوب الرياض
+                  </a>
+                </li>
+                <li>
+                  <a href="privacy-policy.html" target="_blank">
+                    <i class="ri-arrow-left-s-line"></i>
+                    عقارات للبيع في غرب الرياض
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="footer-bottom">
+        <div class="row align-items-center">
+          <div class="col-md-4">
+            <p class="copyright-text">
+              <span>التحويل المستديم</span> جميع الحقوق محغوظه <i class="ri-copyright-line"></i>.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-style privacy">
+              <li>
+                <a target="_blank" href="https://facebook.com">
+                  شروط الخصوصية
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://twitter.com">
+                  شروط الاستخدام
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://instagram.com">
+                  شروط الإعلان عبر الموقع
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="social-profile list-style style1">
+              <li>
+                <a target="_blank" href="https://facebook.com">
+                  <i class="ri-facebook-fill"></i>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://twitter.com">
+                  <i class="ri-twitter-fill"></i>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://instagram.com">
+                  <i class="ri-instagram-line"></i>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://linkedin.com">
+                  <i class="ri-linkedin-fill"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer Section End -->
+  </div>
+  <a href="javascript:void(0)" class="back-to-top bounce">
+    <i class="ri-arrow-up-s-line"></i>
+  </a>
+
+  <!-- Sign In Modal -->
+  <div class="modal fade" id="signIn" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            <i class="ri-close-line"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row align-items-center gx-5">
+            <div class="col-md-6">
+              <div class="login-bg bg-f">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="login-content">
+                <h2>Sign In</h2>
+                <form class="user-form" action="#">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="form-group">
+                        <input id="text" name="username" type="text" placeholder="Username" required>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="form-group">
+                        <input id="pwd" name="pwd" type="password" placeholder="Password" required>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="form-group">
+                        <button class="btn style1">
+                          Login Now
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <p class="text-center mb-10">Or</p>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-group">
+                        <button type="button" class="btn fb">SignIn With Facebook <span><i
+                              class="ri-facebook-fill"></i></span></button>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-group">
+                        <button type="button" class="btn linkedin">SignIn With Linkedin <span><i
+                              class="ri-linkedin-fill"></i></span></button>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-group mb-0">
+                        <button type="button" class="btn twitter">SignIn With Twitter <span><i
+                              class="ri-twitter-fill"></i></span></button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sign Up Modal -->
+  <div class="modal fade" id="signUp" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            <i class="ri-close-line"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row align-items-center gx-5">
+            <div class="col-md-6">
+              <div class="login-bg bg-f">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="login-content">
+                <h2>Sign Up</h2>
+                <p>Please fill the form to create an account</p>
+                <form class="user-form" action="#">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="form-group">
+                        <input id="fname" name="fname" type="text" placeholder="Full Name" required>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="form-group">
+                        <input id="email" name="email" type="email" placeholder="Email" required>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="form-group">
+                        <input id="pwd_2" name="pwd_2" type="password" placeholder="Password" required>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="form-group">
+                        <input id="pwd_3" name="pwd_3" placeholder="Confirm Password" type="password" required>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-12">
+                      <div class="checkbox style3">
+                        <input type="checkbox" id="test_1">
+                        <label for="test_1">
+                          I Agree with the <a class="link style1" href="terms-of-service.html">Terms &amp;
+                            conditions</a> &amp; <a class="link style1" href="privacy-policy.html">privacy policy</a>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="form-group">
+                        <button class="btn style1">
+                          Register Now
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Link of JS files -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/form-validator.min.js"></script>
+  <script src="assets/js/contact-form-script.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/jquery-ui-min.js"></script>
+  <script src="assets/js/odometer.min.js"></script>
+  <script src="assets/js/fancybox.js"></script>
+  <script src="assets/js/jquery.appear.js"></script>
+  <script src="assets/js/tweenmax.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+<script>
+  $(document).scroll(function () {
+    if ($('.property__sidebar').offset().top + $('.property__sidebar').height() >= $('.property-video').offset().top - 10)
+      $('.property__sidebar').css({
+        'position': 'sticky',
+
+      });
+
+    if ($(document).scrollTop() + $('.property__sidebar').height() < $('.property-video').offset().top)
+      $('.property__sidebar').css({
+        'position': 'fixed',
+      });
+  });
+</script>
+
+</html>
