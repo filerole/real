@@ -12,7 +12,7 @@
     margin-top: 15px !important;
   }
   .section-title.style2 span,
-.content-title.style2 span {
+  .content-title.style2 span {
     letter-spacing: 5px;
   }
   .breadcrumb-wrap {
@@ -75,14 +75,16 @@
   .hero-wrap.style3 .hero-slider-two .hero-slide-item {
     height: 740px;
   }
-  .hero-slider-one.owl-carousel .owl-nav button.owl-prev, .hero-slider-one.owl-carousel .owl-nav button.owl-next {
+  .hero-slider-one.owl-carousel .owl-nav button.owl-prev,
+  .hero-slider-one.owl-carousel .owl-nav button.owl-next {
     width: 40px;
     height: 40px;
     top: auto;
     bottom: 45px;
     transform: translateY(0);
   }
-  .hero-slider-one.owl-carousel .owl-nav button.owl-prev i, .hero-slider-one.owl-carousel .owl-nav button.owl-next i {
+  .hero-slider-one.owl-carousel .owl-nav button.owl-prev i,
+  .hero-slider-one.owl-carousel .owl-nav button.owl-next i {
     font-size: 15px;
   }
   .hero-slider-one.owl-carousel .owl-nav button.owl-prev {
@@ -205,11 +207,13 @@
   .hero-wrap.style3 .hero-slider-two .hero-slide-item {
     height: 700px;
   }
-  .hero-slider-one.owl-carousel .owl-nav button.owl-prev, .hero-slider-one.owl-carousel .owl-nav button.owl-next {
+  .hero-slider-one.owl-carousel .owl-nav button.owl-prev,
+  .hero-slider-one.owl-carousel .owl-nav button.owl-next {
     width: 50px;
     height: 50px;
   }
-  .hero-slider-one.owl-carousel .owl-nav button.owl-prev i, .hero-slider-one.owl-carousel .owl-nav button.owl-next i {
+  .hero-slider-one.owl-carousel .owl-nav button.owl-prev i,
+  .hero-slider-one.owl-carousel .owl-nav button.owl-next i {
     font-size: 18px;
   }
   .hero-slider-one.owl-carousel .owl-nav button.owl-prev {
@@ -294,7 +298,9 @@
   }
 }
 @media only screen and (max-width: 767px) {
-  p, input, textarea {
+  p,
+  input,
+  textarea {
     font-size: 14px;
   }
   .btn {
@@ -354,13 +360,14 @@
     margin-bottom: 25px !important;
   }
   .section-title.mb-50,
-.content-title.mb-50 {
+  .content-title.mb-50 {
     margin-bottom: 30px !important;
   }
   .section-title.mb-40 {
     margin-bottom: 20px !important;
   }
-  .link, .btn {
+  .link,
+  .btn {
     font-size: 14px;
   }
   .btn {
@@ -379,21 +386,23 @@
   .back-to-top i {
     font-size: 18px;
   }
-  .section-title.style2 span, .section-title.style3 span,
-.content-title.style2 span,
-.content-title.style3 span {
+  .section-title.style2 span,
+  .section-title.style3 span,
+  .content-title.style2 span,
+  .content-title.style3 span {
     font-size: 12px;
   }
   .section-title.style1 span,
-.content-title.style1 span {
+  .content-title.style1 span {
     font-size: 14px;
   }
   .section-title h2,
-.content-title h2 {
+  .content-title h2 {
     font-size: 24px;
     line-height: 1.3;
   }
-  select, button {
+  select,
+  button {
     font-size: 14px;
   }
   .breadcrumb-wrap {
@@ -413,21 +422,23 @@
   .breadcrumb-title .breadcrumb-menu li a {
     font-size: 14px;
   }
-  .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
+  .owl-carousel .owl-nav button.owl-prev,
+  .owl-carousel .owl-nav button.owl-next {
     width: 40px;
     height: 40px;
   }
-  .owl-carousel .owl-nav button.owl-prev i, .owl-carousel .owl-nav button.owl-next i {
+  .owl-carousel .owl-nav button.owl-prev i,
+  .owl-carousel .owl-nav button.owl-next i {
     font-size: 14px;
   }
   .adv-card .adv-info h3,
-.hw-card .hw-info h3,
-.city-card .city-info h3,
-.city-card h3,
-.simple-card .simple-card-info h3,
-.contact-item .contact-info h3,
-.property-card .property-info h3,
-.blog-card .blog-info h3 {
+  .hw-card .hw-info h3,
+  .city-card .city-info h3,
+  .city-card h3,
+  .simple-card .simple-card-info h3,
+  .contact-item .contact-info h3,
+  .property-card .property-info h3,
+  .blog-card .blog-info h3 {
     font-size: 20px;
   }
   .hero-wrap .hero-content h1 {
@@ -458,10 +469,25 @@
   .hero-wrap.style1 .hero-img-wrap .hero-bg-one {
     width: calc(100% - 50px);
   }
-  .hero-wrap.style1 .hero-img-wrap .hero-property-slider .owl-nav button.owl-prev i, .hero-wrap.style1 .hero-img-wrap .hero-property-slider .owl-nav button.owl-next i {
+  .hero-wrap.style1
+    .hero-img-wrap
+    .hero-property-slider
+    .owl-nav
+    button.owl-prev
+    i,
+  .hero-wrap.style1
+    .hero-img-wrap
+    .hero-property-slider
+    .owl-nav
+    button.owl-next
+    i {
     top: 6px;
   }
-  .hero-wrap.style1 .hero-img-wrap .hero-property-slider .property-card.style1 .property-info {
+  .hero-wrap.style1
+    .hero-img-wrap
+    .hero-property-slider
+    .property-card.style1
+    .property-info {
     padding: 20px;
   }
   .hero-wrap.style2 .hero-slide-item:after {
@@ -478,23 +504,40 @@
     width: 100%;
     margin-right: 0;
   }
-  .hero-wrap.style3 .hero-content .property-search-form .form-group-wrap .form-group {
+  .hero-wrap.style3
+    .hero-content
+    .property-search-form
+    .form-group-wrap
+    .form-group {
     width: 100%;
     border-right: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
-  .hero-wrap.style3 .hero-content .property-search-form .form-group-wrap .form-group input, .hero-wrap.style3 .hero-content .property-search-form .form-group-wrap .form-group select {
+  .hero-wrap.style3
+    .hero-content
+    .property-search-form
+    .form-group-wrap
+    .form-group
+    input,
+  .hero-wrap.style3
+    .hero-content
+    .property-search-form
+    .form-group-wrap
+    .form-group
+    select {
     height: 54px;
   }
   .hero-wrap.style3 .hero-content .property-search-form button {
     width: 100%;
     border-radius: 0 0 5px 5px;
   }
-  .hero-slider-two.owl-carousel .owl-nav button.owl-prev, .hero-slider-two.owl-carousel .owl-nav button.owl-next {
+  .hero-slider-two.owl-carousel .owl-nav button.owl-prev,
+  .hero-slider-two.owl-carousel .owl-nav button.owl-next {
     width: 45px;
     height: 45px;
   }
-  .hero-slider-two.owl-carousel .owl-nav button.owl-prev i, .hero-slider-two.owl-carousel .owl-nav button.owl-next i {
+  .hero-slider-two.owl-carousel .owl-nav button.owl-prev i,
+  .hero-slider-two.owl-carousel .owl-nav button.owl-next i {
     font-size: 18px;
   }
   .hero-slider-two.owl-carousel .owl-nav button.owl-prev {
@@ -516,8 +559,8 @@
     padding: 0 20px 20px;
   }
   .about-wrap.style3 .about-img-wrap .about-bg-2,
-.about-wrap.style3 .about-img-wrap .about-bg-3,
-.about-wrap.style3 .about-img-wrap .about-bg-4 {
+  .about-wrap.style3 .about-img-wrap .about-bg-3,
+  .about-wrap.style3 .about-img-wrap .about-bg-4 {
     height: 350px;
   }
   .hw-card.style2 .hw-img {
@@ -580,17 +623,17 @@
     margin-bottom: 20px;
   }
   .property-slider-three.owl-carousel .owl-dots,
-.testimonial-slider-one.owl-carousel .owl-dots,
-.city-slider-one.owl-carousel .owl-dots,
-.city-slider-two.owl-carousel .owl-dots {
+  .testimonial-slider-one.owl-carousel .owl-dots,
+  .city-slider-one.owl-carousel .owl-dots,
+  .city-slider-two.owl-carousel .owl-dots {
     margin: 5px 0 10px;
   }
   .testimonial-slider-one,
-.testimonial-slider-two {
+  .testimonial-slider-two {
     margin: -10px 0;
   }
   .testimonial-slider-one .testimonial-card,
-.testimonial-slider-two .testimonial-card {
+  .testimonial-slider-two .testimonial-card {
     margin: 10px 0;
   }
   .agent-details-wrap {
@@ -739,7 +782,8 @@
   .property-details .property-desc .property-annuties li:last-child {
     margin-bottom: 10px;
   }
-  .agent-desc .review-form, .property-desc .review-form {
+  .agent-desc .review-form,
+  .property-desc .review-form {
     padding: 20px;
   }
   .login-bg {
@@ -751,60 +795,69 @@
   .login-content {
     padding: 20px 20px 18px;
   }
-  article h2, .terms-wrap h2,
-article h3, .terms-wrap h3 {
+  article h2,
+  .terms-wrap h2,
+  article h3,
+  .terms-wrap h3 {
     margin-bottom: 15px;
   }
-  article p, .terms-wrap p {
+  article p,
+  .terms-wrap p {
     margin-bottom: 15px;
   }
-  article .content-feature-list, .service-desc .content-feature-list, .terms-wrap .content-feature-list, .project-desc .content-feature-list {
+  article .content-feature-list,
+  .service-desc .content-feature-list,
+  .terms-wrap .content-feature-list,
+  .project-desc .content-feature-list {
     margin: 15px 0 15px;
   }
-  article ol, .service-desc ol, .terms-wrap ol, .project-desc ol {
+  article ol,
+  .service-desc ol,
+  .terms-wrap ol,
+  .project-desc ol {
     margin-top: 15px;
     margin-bottom: 15px;
   }
   article h1,
-.terms-wrap h1 {
+  .terms-wrap h1 {
     font-size: 24px;
   }
   article h2,
-.terms-wrap h2 {
+  .terms-wrap h2 {
     font-size: 22px;
   }
   article h3,
-.terms-wrap h3 {
+  .terms-wrap h3 {
     font-size: 20px;
   }
   article h4,
-.terms-wrap h4 {
+  .terms-wrap h4 {
     font-size: 18px;
   }
   article h5,
-.terms-wrap h5 {
+  .terms-wrap h5 {
     font-size: 17px;
   }
   article h6,
-.terms-wrap h6 {
+  .terms-wrap h6 {
     font-size: 16px;
   }
   article ol li,
-.terms-wrap ol li {
+  .terms-wrap ol li {
     font-size: 14px;
     margin-bottom: 10px;
   }
   article ol li:last-child,
-.terms-wrap ol li:last-child {
+  .terms-wrap ol li:last-child {
     margin-bottom: 0;
   }
   article ul li,
-.terms-wrap ul li {
+  .terms-wrap ul li {
     font-size: 14px;
     margin-bottom: 10px;
   }
   article ul li:last-child,
-.terms-wrap ul li:last-child {
+  .terms-wrap ul li:last-child {
     margin-bottom: 0;
   }
   .post-author .post-author-info h4 {
@@ -876,11 +929,19 @@ article h3, .terms-wrap h3 {
     margin-left: 0;
     margin-top: 20px;
   }
-  .comment-item-wrap .comment-item .comment-author-wrap .comment-author-name h5 {
+  .comment-item-wrap
+    .comment-item
+    .comment-author-wrap
+    .comment-author-name
+    h5 {
     font-size: 16px;
     display: block;
   }
-  .comment-item-wrap .comment-item .comment-author-wrap .comment-author-name .comment-date {
+  .comment-item-wrap
+    .comment-item
+    .comment-author-wrap
+    .comment-author-name
+    .comment-date {
     display: block;
     margin-left: 0;
     margin-top: 12px;
@@ -935,6 +996,7 @@ article h3, .terms-wrap h3 {
     font-size: 30px;
   }
   .contact-content .content-title {
+    text-align: center;
     margin-bottom: 20px;
   }
   .error-content img {
@@ -1005,21 +1067,21 @@ article h3, .terms-wrap h3 {
     padding: 40px 0 0;
   }
   .breadcrumb-title h2,
-.section-title h2,
-.content-title h2 {
+  .section-title h2,
+  .content-title h2 {
     font-size: 35px;
   }
   .content-wrapper {
     margin-top: 63px;
   }
   .adv-card .adv-info h3,
-.hw-card .hw-info h3,
-.city-card .city-info h3,
-.city-card h3,
-.simple-card .simple-card-info h3,
-.contact-item .contact-info h3,
-.property-card .property-info h3,
-.blog-card .blog-info h3 {
+  .hw-card .hw-info h3,
+  .city-card .city-info h3,
+  .city-card h3,
+  .simple-card .simple-card-info h3,
+  .contact-item .contact-info h3,
+  .property-card .property-info h3,
+  .blog-card .blog-info h3 {
     font-size: 20px;
   }
   .hero-wrap.style1 .hero-content h1 {
@@ -1038,7 +1100,11 @@ article h3, .terms-wrap h3 {
   .hero-wrap.style1 .hero-img-wrap .hero-property-slider .owl-nav {
     left: calc(50% + 50px);
   }
-  .hero-wrap.style1 .hero-img-wrap .hero-property-slider .property-card.style1 .property-info {
+  .hero-wrap.style1
+    .hero-img-wrap
+    .hero-property-slider
+    .property-card.style1
+    .property-info {
     padding: 20px;
   }
   .hero-wrap.style2 .container-fluid {
@@ -1051,7 +1117,12 @@ article h3, .terms-wrap h3 {
     padding: 100px 0 140px;
   }
   .hero-wrap.style2 .hero-slide-item:after {
-    background: linear-gradient(90deg, rgba(1, 34, 115, 0.9) 10%, rgba(1, 34, 115, 0.02) 96%, rgba(1, 34, 115, 0.04) 77%);
+    background: linear-gradient(
+      90deg,
+      rgba(1, 34, 115, 0.9) 10%,
+      rgba(1, 34, 115, 0.02) 96%,
+      rgba(1, 34, 115, 0.04) 77%
+    );
   }
   .hero-wrap.style2 .hero-content {
     padding-left: 30px;
@@ -1075,11 +1146,26 @@ article h3, .terms-wrap h3 {
     background-color: #fff;
     border-radius: 5px;
   }
-  .hero-wrap.style3 .hero-content .property-search-form .form-group-wrap .form-group {
+  .hero-wrap.style3
+    .hero-content
+    .property-search-form
+    .form-group-wrap
+    .form-group {
     width: 33.33%;
     border-right: 1px solid rgba(0, 0, 0, 0.1);
   }
-  .hero-wrap.style3 .hero-content .property-search-form .form-group-wrap .form-group input, .hero-wrap.style3 .hero-content .property-search-form .form-group-wrap .form-group select {
+  .hero-wrap.style3
+    .hero-content
+    .property-search-form
+    .form-group-wrap
+    .form-group
+    input,
+  .hero-wrap.style3
+    .hero-content
+    .property-search-form
+    .form-group-wrap
+    .form-group
+    select {
     border: none;
     height: 57px;
     background-color: transparent;
@@ -1087,13 +1173,28 @@ article h3, .terms-wrap h3 {
     padding: 15px 15px 10px 20px;
     border-radius: 0;
   }
-  .hero-wrap.style3 .hero-content .property-search-form .form-group-wrap .form-group input::-moz-placeholder {
+  .hero-wrap.style3
+    .hero-content
+    .property-search-form
+    .form-group-wrap
+    .form-group
+    input::-moz-placeholder {
     opacity: 1;
   }
-  .hero-wrap.style3 .hero-content .property-search-form .form-group-wrap .form-group input:-ms-input-placeholder {
+  .hero-wrap.style3
+    .hero-content
+    .property-search-form
+    .form-group-wrap
+    .form-group
+    input:-ms-input-placeholder {
     opacity: 1;
   }
-  .hero-wrap.style3 .hero-content .property-search-form .form-group-wrap .form-group input::placeholder {
+  .hero-wrap.style3
+    .hero-content
+    .property-search-form
+    .form-group-wrap
+    .form-group
+    input::placeholder {
     opacity: 1;
   }
   .hero-wrap.style3 .hero-content .property-search-form button {
@@ -1102,11 +1203,13 @@ article h3, .terms-wrap h3 {
   .hero-wrap.style3 .hero-slider-two .hero-slide-item {
     height: 600px;
   }
-  .hero-slider-one.owl-carousel .owl-nav button.owl-prev, .hero-slider-one.owl-carousel .owl-nav button.owl-next {
+  .hero-slider-one.owl-carousel .owl-nav button.owl-prev,
+  .hero-slider-one.owl-carousel .owl-nav button.owl-next {
     width: 50px;
     height: 50px;
   }
-  .hero-slider-one.owl-carousel .owl-nav button.owl-prev i, .hero-slider-one.owl-carousel .owl-nav button.owl-next i {
+  .hero-slider-one.owl-carousel .owl-nav button.owl-prev i,
+  .hero-slider-one.owl-carousel .owl-nav button.owl-next i {
     font-size: 18px;
   }
   .hero-slider-one.owl-carousel .owl-nav button.owl-prev {
@@ -1115,11 +1218,13 @@ article h3, .terms-wrap h3 {
   .hero-slider-one.owl-carousel .owl-nav button.owl-next {
     right: -20px;
   }
-  .hero-slider-two.owl-carousel .owl-nav button.owl-prev, .hero-slider-two.owl-carousel .owl-nav button.owl-next {
+  .hero-slider-two.owl-carousel .owl-nav button.owl-prev,
+  .hero-slider-two.owl-carousel .owl-nav button.owl-next {
     width: 45px;
     height: 45px;
   }
-  .hero-slider-two.owl-carousel .owl-nav button.owl-prev i, .hero-slider-two.owl-carousel .owl-nav button.owl-next i {
+  .hero-slider-two.owl-carousel .owl-nav button.owl-prev i,
+  .hero-slider-two.owl-carousel .owl-nav button.owl-next i {
     font-size: 18px;
   }
   .hero-slider-two.owl-carousel .owl-nav button.owl-prev {
@@ -1167,8 +1272,8 @@ article h3, .terms-wrap h3 {
     padding: 0 40px 40px;
   }
   .about-wrap.style3 .about-img-wrap .about-bg-2,
-.about-wrap.style3 .about-img-wrap .about-bg-3,
-.about-wrap.style3 .about-img-wrap .about-bg-4 {
+  .about-wrap.style3 .about-img-wrap .about-bg-3,
+  .about-wrap.style3 .about-img-wrap .about-bg-4 {
     height: 400px;
   }
   .video-wrap .video-content {
@@ -1282,7 +1387,7 @@ article h3, .terms-wrap h3 {
     width: 26%;
   }
   #signUp .modal-dialog,
-#signIn .modal-dialog {
+  #signIn .modal-dialog {
     max-width: 720px;
   }
 }
@@ -1315,7 +1420,8 @@ article h3, .terms-wrap h3 {
     bottom: -80px;
     transform: translateX(-50%);
   }
-  .hero-slider-two.owl-carousel .owl-nav button.owl-prev, .hero-slider-two.owl-carousel .owl-nav button.owl-next {
+  .hero-slider-two.owl-carousel .owl-nav button.owl-prev,
+  .hero-slider-two.owl-carousel .owl-nav button.owl-next {
     top: auto;
     transform: translateY(0);
     bottom: 30px;
@@ -1354,14 +1460,14 @@ article h3, .terms-wrap h3 {
 }
 @media only screen and (min-width: 992px) {
   #signUp .modal-dialog,
-#signIn .modal-dialog {
+  #signIn .modal-dialog {
     max-width: 900px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .breadcrumb-title h2,
-.section-title h2,
-.content-title h2 {
+  .section-title h2,
+  .content-title h2 {
     font-size: 35px;
   }
   .breadcrumb-wrap {
@@ -1371,13 +1477,13 @@ article h3, .terms-wrap h3 {
     margin-top: 83px;
   }
   .adv-card .adv-info h3,
-.hw-card .hw-info h3,
-.city-card .city-info h3,
-.city-card h3,
-.simple-card .simple-card-info h3,
-.contact-item .contact-info h3,
-.property-card .property-info h3,
-.blog-card .blog-info h3 {
+  .hw-card .hw-info h3,
+  .city-card .city-info h3,
+  .city-card h3,
+  .simple-card .simple-card-info h3,
+  .contact-item .contact-info h3,
+  .property-card .property-info h3,
+  .blog-card .blog-info h3 {
     font-size: 20px;
   }
   .hero-wrap.style1 {
@@ -1399,7 +1505,11 @@ article h3, .terms-wrap h3 {
   .hero-wrap.style1 .hero-img-wrap .hero-property-slider .owl-nav {
     left: calc(100% - 960px + 123px);
   }
-  .hero-wrap.style1 .hero-img-wrap .hero-property-slider .property-card.style1 .property-info {
+  .hero-wrap.style1
+    .hero-img-wrap
+    .hero-property-slider
+    .property-card.style1
+    .property-info {
     padding: 20px;
   }
   .hero-wrap.style2 .container-fluid {
@@ -1426,11 +1536,13 @@ article h3, .terms-wrap h3 {
   .hero-wrap.style3 .hero-slider-two .hero-slide-item {
     height: 650px;
   }
-  .hero-slider-one.owl-carousel .owl-nav button.owl-prev, .hero-slider-one.owl-carousel .owl-nav button.owl-next {
+  .hero-slider-one.owl-carousel .owl-nav button.owl-prev,
+  .hero-slider-one.owl-carousel .owl-nav button.owl-next {
     width: 50px;
     height: 50px;
   }
-  .hero-slider-one.owl-carousel .owl-nav button.owl-prev i, .hero-slider-one.owl-carousel .owl-nav button.owl-next i {
+  .hero-slider-one.owl-carousel .owl-nav button.owl-prev i,
+  .hero-slider-one.owl-carousel .owl-nav button.owl-next i {
     font-size: 20px;
   }
   .hero-slider-one.owl-carousel .owl-nav button.owl-prev {
@@ -1439,11 +1551,13 @@ article h3, .terms-wrap h3 {
   .hero-slider-one.owl-carousel .owl-nav button.owl-next {
     right: -20px;
   }
-  .hero-slider-two.owl-carousel .owl-nav button.owl-prev, .hero-slider-two.owl-carousel .owl-nav button.owl-next {
+  .hero-slider-two.owl-carousel .owl-nav button.owl-prev,
+  .hero-slider-two.owl-carousel .owl-nav button.owl-next {
     width: 50px;
     height: 50px;
   }
-  .hero-slider-two.owl-carousel .owl-nav button.owl-prev i, .hero-slider-two.owl-carousel .owl-nav button.owl-next i {
+  .hero-slider-two.owl-carousel .owl-nav button.owl-prev i,
+  .hero-slider-two.owl-carousel .owl-nav button.owl-next i {
     font-size: 20px;
   }
   .hero-slider-two.owl-carousel .owl-nav button.owl-prev {
@@ -1496,7 +1610,8 @@ article h3, .terms-wrap h3 {
   .counter-card-wrap .counter-card .counter-text p {
     font-size: 15px;
   }
-  .counter-card-wrap.style1 .counter-card:after, .counter-card-wrap.style4 .counter-card:after {
+  .counter-card-wrap.style1 .counter-card:after,
+  .counter-card-wrap.style4 .counter-card:after {
     right: 20px;
     height: 58px;
   }
@@ -1542,7 +1657,7 @@ article h3, .terms-wrap h3 {
     padding-right: 25px;
   }
   #signUp .modal-dialog,
-#signIn .modal-dialog {
+  #signIn .modal-dialog {
     max-width: 1100px;
   }
 }
@@ -1563,11 +1678,13 @@ article h3, .terms-wrap h3 {
   .hero-wrap.style3 .hero-content {
     max-width: 1040px !important;
   }
-  .hero-wrap.style3 .hero-slider-two.owl-carousel .owl-nav button.owl-prev, .hero-wrap.style3 .hero-slider-two.owl-carousel .owl-nav button.owl-next {
+  .hero-wrap.style3 .hero-slider-two.owl-carousel .owl-nav button.owl-prev,
+  .hero-wrap.style3 .hero-slider-two.owl-carousel .owl-nav button.owl-next {
     width: 50px;
     height: 50px;
   }
-  .hero-wrap.style3 .hero-slider-two.owl-carousel .owl-nav button.owl-prev i, .hero-wrap.style3 .hero-slider-two.owl-carousel .owl-nav button.owl-next i {
+  .hero-wrap.style3 .hero-slider-two.owl-carousel .owl-nav button.owl-prev i,
+  .hero-wrap.style3 .hero-slider-two.owl-carousel .owl-nav button.owl-next i {
     font-size: 20px;
   }
   .hero-wrap.style3 .hero-slider-two.owl-carousel .owl-nav button.owl-prev {
@@ -1576,11 +1693,13 @@ article h3, .terms-wrap h3 {
   .hero-wrap.style3 .hero-slider-two.owl-carousel .owl-nav button.owl-next {
     right: 15px;
   }
-  .hero-slider-one.owl-carousel .owl-nav button.owl-prev, .hero-slider-one.owl-carousel .owl-nav button.owl-next {
+  .hero-slider-one.owl-carousel .owl-nav button.owl-prev,
+  .hero-slider-one.owl-carousel .owl-nav button.owl-next {
     width: 60px;
     height: 60px;
   }
-  .hero-slider-one.owl-carousel .owl-nav button.owl-prev i, .hero-slider-one.owl-carousel .owl-nav button.owl-next i {
+  .hero-slider-one.owl-carousel .owl-nav button.owl-prev i,
+  .hero-slider-one.owl-carousel .owl-nav button.owl-next i {
     font-size: 24px;
   }
   .hero-slider-one.owl-carousel .owl-nav button.owl-prev {
@@ -1592,8 +1711,8 @@ article h3, .terms-wrap h3 {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .breadcrumb-title h2,
-.section-title h2,
-.content-title h2 {
+  .section-title h2,
+  .content-title h2 {
     font-size: 40px;
   }
   .hero-wrap.style1 {
@@ -1612,7 +1731,11 @@ article h3, .terms-wrap h3 {
   .hero-wrap.style1 .hero-img-wrap .hero-property-slider .owl-nav {
     left: calc(100% - 1140px + 36px);
   }
-  .hero-wrap.style1 .hero-img-wrap .hero-property-slider .property-card.style1 .property-info {
+  .hero-wrap.style1
+    .hero-img-wrap
+    .hero-property-slider
+    .property-card.style1
+    .property-info {
     padding: 20px;
   }
   .hero-wrap.style2 .container-fluid {
@@ -1633,11 +1756,13 @@ article h3, .terms-wrap h3 {
   .hero-wrap.style3 .hero-slider-two .hero-slide-item {
     height: 700px;
   }
-  .hero-slider-one.owl-carousel .owl-nav button.owl-prev, .hero-slider-one.owl-carousel .owl-nav button.owl-next {
+  .hero-slider-one.owl-carousel .owl-nav button.owl-prev,
+  .hero-slider-one.owl-carousel .owl-nav button.owl-next {
     width: 60px;
     height: 60px;
   }
-  .hero-slider-one.owl-carousel .owl-nav button.owl-prev i, .hero-slider-one.owl-carousel .owl-nav button.owl-next i {
+  .hero-slider-one.owl-carousel .owl-nav button.owl-prev i,
+  .hero-slider-one.owl-carousel .owl-nav button.owl-next i {
     font-size: 24px;
   }
   .hero-slider-one.owl-carousel .owl-nav button.owl-prev {
@@ -1646,11 +1771,13 @@ article h3, .terms-wrap h3 {
   .hero-slider-one.owl-carousel .owl-nav button.owl-next {
     right: -25px;
   }
-  .hero-slider-two.owl-carousel .owl-nav button.owl-prev, .hero-slider-two.owl-carousel .owl-nav button.owl-next {
+  .hero-slider-two.owl-carousel .owl-nav button.owl-prev,
+  .hero-slider-two.owl-carousel .owl-nav button.owl-next {
     width: 65px;
     height: 65px;
   }
-  .hero-slider-two.owl-carousel .owl-nav button.owl-prev i, .hero-slider-two.owl-carousel .owl-nav button.owl-next i {
+  .hero-slider-two.owl-carousel .owl-nav button.owl-prev i,
+  .hero-slider-two.owl-carousel .owl-nav button.owl-next i {
     font-size: 24px;
   }
   .hero-slider-two.owl-carousel .owl-nav button.owl-prev {
@@ -1711,11 +1838,13 @@ article h3, .terms-wrap h3 {
   .hero-wrap.style3 .hero-slider-two .hero-slide-item {
     height: 750px;
   }
-  .hero-slider-one.owl-carousel .owl-nav button.owl-prev, .hero-slider-one.owl-carousel .owl-nav button.owl-next {
+  .hero-slider-one.owl-carousel .owl-nav button.owl-prev,
+  .hero-slider-one.owl-carousel .owl-nav button.owl-next {
     width: 60px;
     height: 60px;
   }
-  .hero-slider-one.owl-carousel .owl-nav button.owl-prev i, .hero-slider-one.owl-carousel .owl-nav button.owl-next i {
+  .hero-slider-one.owl-carousel .owl-nav button.owl-prev i,
+  .hero-slider-one.owl-carousel .owl-nav button.owl-next i {
     font-size: 24px;
   }
   .hero-slider-one.owl-carousel .owl-nav button.owl-prev {
@@ -1724,11 +1853,13 @@ article h3, .terms-wrap h3 {
   .hero-slider-one.owl-carousel .owl-nav button.owl-next {
     right: -25px;
   }
-  .hero-slider-two.owl-carousel .owl-nav button.owl-prev, .hero-slider-two.owl-carousel .owl-nav button.owl-next {
+  .hero-slider-two.owl-carousel .owl-nav button.owl-prev,
+  .hero-slider-two.owl-carousel .owl-nav button.owl-next {
     width: 65px;
     height: 65px;
   }
-  .hero-slider-two.owl-carousel .owl-nav button.owl-prev i, .hero-slider-two.owl-carousel .owl-nav button.owl-next i {
+  .hero-slider-two.owl-carousel .owl-nav button.owl-prev i,
+  .hero-slider-two.owl-carousel .owl-nav button.owl-next i {
     font-size: 24px;
   }
   .hero-slider-two.owl-carousel .owl-nav button.owl-prev {
@@ -1747,8 +1878,8 @@ article h3, .terms-wrap h3 {
 }
 @media only screen and (min-width: 1600px) {
   .breadcrumb-title h2,
-.section-title h2,
-.content-title h2 {
+  .section-title h2,
+  .content-title h2 {
     font-size: 48px;
   }
   .breadcrumb-wrap .container {
@@ -1777,11 +1908,13 @@ article h3, .terms-wrap h3 {
   .hero-wrap.style3 .hero-content p {
     padding: 0 50px;
   }
-  .hero-slider-one.owl-carousel .owl-nav button.owl-prev, .hero-slider-one.owl-carousel .owl-nav button.owl-next {
+  .hero-slider-one.owl-carousel .owl-nav button.owl-prev,
+  .hero-slider-one.owl-carousel .owl-nav button.owl-next {
     width: 60px;
     height: 60px;
   }
-  .hero-slider-one.owl-carousel .owl-nav button.owl-prev i, .hero-slider-one.owl-carousel .owl-nav button.owl-next i {
+  .hero-slider-one.owl-carousel .owl-nav button.owl-prev i,
+  .hero-slider-one.owl-carousel .owl-nav button.owl-next i {
     font-size: 24px;
   }
   .hero-slider-one.owl-carousel .owl-nav button.owl-prev {
@@ -1811,11 +1944,13 @@ article h3, .terms-wrap h3 {
   .hero-wrap.style3 .hero-content p {
     padding: 0 100px;
   }
-  .hero-slider-one.owl-carousel .owl-nav button.owl-prev, .hero-slider-one.owl-carousel .owl-nav button.owl-next {
+  .hero-slider-one.owl-carousel .owl-nav button.owl-prev,
+  .hero-slider-one.owl-carousel .owl-nav button.owl-next {
     width: 80px;
     height: 80px;
   }
-  .hero-slider-one.owl-carousel .owl-nav button.owl-prev i, .hero-slider-one.owl-carousel .owl-nav button.owl-next i {
+  .hero-slider-one.owl-carousel .owl-nav button.owl-prev i,
+  .hero-slider-one.owl-carousel .owl-nav button.owl-next i {
     font-size: 24px;
   }
   .hero-slider-one.owl-carousel .owl-nav button.owl-prev {
@@ -1827,7 +1962,7 @@ article h3, .terms-wrap h3 {
   .testimonial-slider-two.owl-carousel .owl-nav {
     margin: 25px 0px 0px -170px;
   }
-}/*# sourceMappingURL=responsive.css.map */
+} /*# sourceMappingURL=responsive.css.map */
 @media only screen and (max-width: 770px) {
   .search-property {
     padding: 20px 20px 0;
